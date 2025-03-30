@@ -1,33 +1,47 @@
-body{
+body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     height: 100vh;
 }
-.container{
+
+.container {
     width: 100%;
-    background-color:rgb(221, 255, 244);
+    /*     background-color:rgb(221, 255, 244);*/
     text-align: center;
 }
-.flex{
+
+.flex {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.images{
-    margin-left: 10px;
-    width: 150%; 
+
+.exp p {
+    width: 100%;
+    height: 100%;
+    margin: 15px;
 }
-.images img{
-    object-fit: contain;    
+
+.images {
+    margin: 0 15px 0 0;
+    width: 150%;
+}
+
+.images img {
+    object-fit: contain;
     width: 100%;
     height: 100%;
     border-radius: 2rem;
 }
-.buttons{
+
+
+.buttons {
     margin-top: 10px;
 }
-.prev, .next{
+
+.prev,
+.next {
     background-color: #f5e12f;
     width: 6rem;
     padding: 10px;
