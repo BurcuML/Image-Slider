@@ -37,7 +37,7 @@ body {
 
 
 .buttons {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .prev,
@@ -46,4 +46,5 @@ body {
     width: 6rem;
     padding: 10px;
     margin: 10px;
+    border-radius: 10px;
 }
