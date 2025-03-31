@@ -21,11 +21,18 @@ body {
     width: 100%;
     position: relative;
 }
-.images p {
-    width: 100%;
+
+#explanation {
+    background: #ffeecf40;
+    box-shadow: 0 4px 30px #0000001a;
+    backdrop-filter: blur(9.9px);
+    border-radius: 15px;
+    width: 30%;
     word-wrap: break-word;
     position: absolute;
-    top: 290px;
+    top: 390px;
+    left: 530px;
+    z-index: 1;
 }
 .images img {
     object-fit: contain;
