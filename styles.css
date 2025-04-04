@@ -35,17 +35,14 @@ body {
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-    background: #ffecc825;
-    box-shadow: 0 4px 30px #0000001a;
-    backdrop-filter: blur(9.9px);
-    border-radius: 15px;
-    width: 90%;
+    background: #ffecc825;  
+    backdrop-filter: blur(2px);
+    border-radius: 15px;    
     max-width: 30rem;
     word-wrap: break-word;
     z-index: 1;
     padding: 10px;
     text-align: center;
-    animation: fadeIn 0.6s ease-in-out;
 }
 
 @keyframes fadeIn {
