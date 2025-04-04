@@ -11,6 +11,7 @@ const totalExplanations = explanations.length;
 // Hide all images except the first one
 for (let i = 1; i < totalImages; i++) {
   allImages[i].style.display = "none";
+  explanations[i].style.display = "none";
 }
 
 prev.addEventListener("click", () => {
