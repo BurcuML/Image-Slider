@@ -18,6 +18,11 @@ prev.addEventListener("click", () => {
     // Scroll to the left by the width of the images container
   images.scrollLeft -= images.offsetWidth;
   currentImg = (currentImg - 1 + totalImages) % totalImages;
+
+  allImages.forEach((img, index) => {
+    img.style.display = index === currentImg ? "inline" : "none";
+    explanations[index].style.display = index === currentImg ? "block" : "none";
+  });
 });
 
 next.addEventListener("click", () => {
@@ -25,4 +30,8 @@ next.addEventListener("click", () => {
   images.scrollLeft += images.offsetWidth;
   currentImg = (currentImg + 1) % totalImages;
 
+  allImages.forEach((img, index) => {
+    img.style.display = index === currentImg ? "inline" : "none";
+    explanations[index].style.display = index === currentImg ? "block" : "none";
+  });
 });
