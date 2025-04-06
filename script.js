@@ -17,10 +17,12 @@ for (let i = 1; i < totalImages; i++) {
 prev.addEventListener("click", () => {
     // Scroll to the left by the width of the images container
   images.scrollLeft -= images.offsetWidth;
-  allImages[currentImg].style.display = "inline";
-  explanations[currentImg].style.display = "inline";
+  currentImg = (currentImg - 1 + totalImages) % totalImages;
 });
+
 next.addEventListener("click", () => {
     // Scroll to the right by the width of the images container
   images.scrollLeft += images.offsetWidth;
-}); 0 
+  currentImg = (currentImg + 1) % totalImages;
+
+});
