@@ -15,7 +15,7 @@ for (let i = 1; i < totalImages; i++) {
   explanations[i].style.display = "none";
 }
 
-//Neden % images.length Yapıyoruz?
+//Neden "% images.length" Yapıyoruz?
 // Çünkü toplamda kaç tane resim varsa o kadar döngü yapması lazım.
 // Eğer 5 tane resim varsa 0-4 arasında döngü yapar. Eğer 6. resme geçerse 0'a döner.
 // Yani 5'e bölünce kalan 0 olur. Bu yüzden % kullanıyoruz.
