@@ -44,7 +44,7 @@ Bu projeyi yerel olarak çalıştırmak için, depoyu klonlayın ve `index.html`
 
 ```bash
 git clone <depo-adresi>
-cd resim-kaydirici
+cd Image-Slider
 open index.html
 
 ```
