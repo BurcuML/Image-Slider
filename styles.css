@@ -30,6 +30,7 @@ body {
 .hidden{
     display: none;
 }
+
 .exp {
     position: absolute;
     bottom: 10px;
